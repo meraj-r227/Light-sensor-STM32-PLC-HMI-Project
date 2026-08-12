@@ -1,0 +1,27 @@
+[Version]=ISPSoft_Version_1
+[Title]=
+[Company]=
+[Designer]=
+D0::Number  of  Lamp is  light  
+D1::lux  read  HMI  OF simulation  
+D2::lux  read  HMI of  USER  
+M0::Less light  (0<D0<2)
+M1::Average light  (3<D0<6)
+M10::Less light  (D1<10)
+M11::Average  light (10<D1<1000)
+M12::More light (D1>1000)
+M2::More light(7<D0<9) 
+M20::D1<D2
+M21::D1>D2
+X0::Start
+X1::Stop
+Y0::Lamp0
+Y1::Lamp1
+Y10::Lamp8
+Y11::
+Y2::Lamp2
+Y3::Lamp3
+Y4::Lamp4
+Y5::Lamp5
+Y6::Lamp6
+Y7::Lamp7
